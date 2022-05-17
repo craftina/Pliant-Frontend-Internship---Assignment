@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html{
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1vw;
+}
+
+#cover-img{
+    opacity: 0.2;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0.2vw;
+}
+
+.navbar-section{
+    margin: 1vw 13vw;
+    border-bottom: 0.1vw solid;
+    border-color: rgba(255,255,255, 0.1);
+
+}
+
+.navbar-section div{
+    margin: 1vw 0;
+}
+
+
+.logo{
+    display: inline-block;
+    position:relative;
+}
+
+
+.navbar-buttons{
+    float: right;
+    /* display: inline-block; */
+    position:relative;
+}
+
+.navbar-buttons .button{
+    margin-left: 3.7vw;
+}
+
+.navbar-buttons .button :hover{
+    border-bottom: 0.1vw solid;
+    border-color: rgba(255,255,255, 0.5);
+}
+
+
+
+
+@media only screen {
+    /* For mobile phones:  */
+    .logo-button {
+      width: 50%;
+    }
+  }
+
