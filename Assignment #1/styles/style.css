@@ -18,7 +18,7 @@ body {
 }
 
 #site-header{
-    /* padding: auto; */
+    position: relative;
 }
 
 
@@ -44,54 +44,51 @@ nav{
 }
 
 .navbar-section{
-    margin: 1vw 13vw;
+    margin: 0vw 13vw;
     border-bottom: 0.1vw solid;
     border-color: rgba(255,255,255, 0.1);
 
 }
 
 .navbar-section div{
-    margin: 1vw 0;
+    margin-bottom: 1vw;
 }
 
 
 .logo{
     display: inline-block;
     position:relative;
+    padding-top: 1vw;
 }
 
 
 .navbar-buttons{
+    padding-top: 1vw;
     float: right;
-    /* display: inline-block; */
     position:relative;
 }
 
-.navbar-buttons .button{
+.navbar-buttons a{
     margin-left: 3.7vw;
+    padding-bottom: 1.9vw;
 }
 
-/* .navbar-buttons .button :hover{
+.navbar-buttons a:hover{
     border-bottom: 0.1vw solid;
     border-color: rgba(255,255,255, 0.5);
-} */
+}
 
 #header-content{
-    padding: 25% 38%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 54%;
+    left: 49%;
     text-align: center;
-    /* transform: translate(-50%, -50%); */
-    /* width:100%; */
-    
-    /* display:block; */
+    transform: translate(-50%, -50%);
 }
 
 #header-content h1{
     margin: 0;
     font-size: 3.8vw;
-    /* font-weight:900; */
 }
 
 #header-content p{
@@ -106,7 +103,6 @@ nav{
     width: 100%;
     background-color: black;
     margin-top: -0.3vw;
-    /* padding: 2vw; */
 }
 
 #user-nav a{
@@ -133,8 +129,22 @@ nav{
     margin-left: -2vw;
 }
 
+#login-btn:hover{
+    background-color: #476d78;
+    font-size: 1.4vw;
+}
+
+#register-btn:hover{
+    background-color: #56c68c;
+    font-size: 1.4vw;
+}
 
 
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 
 
