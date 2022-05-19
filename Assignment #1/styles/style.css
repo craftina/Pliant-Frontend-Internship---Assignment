@@ -258,6 +258,7 @@ a:-webkit-any-link {
     font-weight: 600;
     text-align: center;
     width: 7vw;
+
 }
 
 .profession {
@@ -356,7 +357,77 @@ a:-webkit-any-link {
     box-shadow: 0 0 5px 0px rgba(255, 255, 255) inset;
 }
 
-#services-section {}
+
+
+/* Services Section */
+
+#services-section {
+    width: 100%;
+}
+
+#serveces-table{
+    text-align: center;
+    margin: 4vw 10.3vw;
+}
+
+.service{
+    /* padding: 1vw; */
+    display: inline-block;
+    width: 17vw;
+    margin: 2vw 1.2vw;
+    text-align: center;
+}
+
+.service-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    margin-bottom: 1vw;
+    
+}
+
+.service-image i{
+    border-radius: 50%;
+    font-size: 1.5vw;
+    color: white;
+    width: 1.8vw;
+    height: 1.8vw;
+}
+
+.service-name{
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 0.5vw;
+
+}
+
+.service-text{
+    color: #939393;
+    font-size: 0.9vw;
+}
+
+.fa-bolt-lightning{
+    border: 1vw solid #F1C40F;
+    background-color: #F1C40F;
+}
+
+.fa-cloud{
+    border: 1vw solid #0FAFF1;
+    background-color: #0FAFF1;
+}
+
+.fa-maximize{
+    border: 1vw solid #8E9D9E;
+    background-color: #8E9D9E;
+}
+
+.fa-comments{
+    border: 1vw solid #F1540F;
+    background-color: #F1540F;
+}
+
+
 
 
 p {
