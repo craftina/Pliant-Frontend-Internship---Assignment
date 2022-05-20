@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-    background-color: black;
+    background-color: white;
     color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 1vw;
@@ -23,6 +23,7 @@ body {
 /* HEADER */
 
 #site-header {
+    background-color: black;
     position: relative;
     height: auto;
 }
@@ -178,8 +179,9 @@ a:-webkit-any-link {
     position: relative;
     width: 100%;
     display: inline-flex;
-    margin-top: 10vw;
-    padding-bottom: 4vw;
+    margin-top: 11vw;
+    margin-bottom: 6vw;
+    /* padding-bottom: 4vw; */
 }
 
 #about-us-text {
@@ -187,7 +189,6 @@ a:-webkit-any-link {
     display: inline-block;
     max-width: 45%;
     text-align: left;
-    margin-top: 3vw;
     max-height: fit-content;
 }
 
@@ -218,8 +219,6 @@ a:-webkit-any-link {
 #employees {
     display: inline-block;
     width: 55%;
-    margin-top: 3vw;
-
 }
 
 .employees-table {
@@ -271,6 +270,7 @@ a:-webkit-any-link {
 .emoticons {
     margin-top: 0.5vw;
     float: left;
+    /* text-align: center; */
 }
 
 .emoticons i {
@@ -367,7 +367,7 @@ a:-webkit-any-link {
 
 #serveces-table{
     text-align: center;
-    margin: 4vw 10.3vw;
+    margin: 3vw 10.3vw;
 }
 
 .service{
@@ -427,6 +427,65 @@ a:-webkit-any-link {
     background-color: #F1540F;
 }
 
+
+/* FOOTER */
+
+#site-footer{
+    background-color: #2A2A2A;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.9vw;
+    line-height: 1.6;
+
+    /* position: absolute; */
+}
+
+#footer-div{
+    padding: 0 6vw;
+    width: auto;
+    margin: auto;
+}
+
+.inline-footer{
+    width: 20.5vw;
+    /* margin: auto; */
+    margin: 4vw 0;
+    padding: 0 4vw;
+    display: inline-block;
+}
+
+#footer-text p:nth-child(2){
+    margin-top: 1vw;
+}
+
+#footer-nav{
+    border-left: 0.1vw solid rgba(255, 255, 255, 0.1);
+    border-right: 0.1vw solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-ul{
+    display: inline-block;
+}
+
+.footer-nav-li{
+    margin: 0.3vw;
+    list-style-type: '>  ';
+}
+
+.contacts-info{
+    display: block;
+}
+
+.contacts-info *{
+    margin-right: 0.5vw ;
+    margin-bottom: 0.4vw;
+    display: inline-block;
+}
+
+.footer-nav-li:hover{
+    color: rgba(255, 255, 255, 0.8);
+    padding-left: 0.5vw;
+
+}
 
 
 
