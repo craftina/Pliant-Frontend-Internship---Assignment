@@ -181,7 +181,6 @@ a:-webkit-any-link {
     display: inline-flex;
     margin-top: 11vw;
     margin-bottom: 6vw;
-    /* padding-bottom: 4vw; */
 }
 
 #about-us-text {
@@ -242,7 +241,6 @@ a:-webkit-any-link {
     overflow: auto;
     display: block;
     max-width: 70%;
-    /* width: 70%; */
 }
 
 .person-img img {
@@ -270,7 +268,6 @@ a:-webkit-any-link {
 .emoticons {
     margin-top: 0.5vw;
     float: left;
-    /* text-align: center; */
 }
 
 .emoticons i {
@@ -308,7 +305,7 @@ a:-webkit-any-link {
     object-fit: cover;
     width: 100%;
     transform: translate(0%, -48%);
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .carousel-content {
@@ -333,15 +330,18 @@ a:-webkit-any-link {
     border-right: 0.1vw solid rgba(255, 255, 255, 0.7);
     color: rgba(255, 255, 255, 0.9);
     font-weight: bold;
-
+    width: 9vw;
+    
 }
 
-#carousel-bittons {
-    margin-left: 0.5vw;
+#carousel-buttons {
+    width: 9vw;
+    margin-left: 1.5vw;
     display: inline-block;
+    text-align: left;
 }
 
-#carousel-bittons input {
+#carousel-buttons input {
     -webkit-appearance: none;
     width: 0.6vw;
     height: 0.6vw;
@@ -349,11 +349,10 @@ a:-webkit-any-link {
     border-radius: 50%;
     outline: none;
     box-shadow: 0 0 5px 0px transparent inset;
-    margin-left: 0.3vw;
     margin-top: 0;
 }
 
-#carousel-bittons input:checked {
+#carousel-buttons input:checked {
     box-shadow: 0 0 5px 0px rgba(255, 255, 255) inset;
 }
 
@@ -371,7 +370,6 @@ a:-webkit-any-link {
 }
 
 .service{
-    /* padding: 1vw; */
     display: inline-block;
     width: 17vw;
     margin: 2vw 1.2vw;
@@ -435,8 +433,6 @@ a:-webkit-any-link {
     color: rgba(255, 255, 255, 0.3);
     font-size: 0.9vw;
     line-height: 1.6;
-
-    /* position: absolute; */
 }
 
 #footer-div{
@@ -447,7 +443,6 @@ a:-webkit-any-link {
 
 .inline-footer{
     width: 20.5vw;
-    /* margin: auto; */
     margin: 4vw 0;
     padding: 0 4vw;
     display: inline-block;
