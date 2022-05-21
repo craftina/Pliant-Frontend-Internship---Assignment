@@ -278,6 +278,7 @@ a:-webkit-any-link {
 
 .emoticons i:hover {
     color: #0F80B5;
+    cursor: pointer;
 }
 
 
@@ -352,8 +353,8 @@ a:-webkit-any-link {
     margin-top: 0;
 }
 
-#carousel-buttons input:checked {
-    box-shadow: 0 0 5px 0px rgba(255, 255, 255) inset;
+.checked{
+    box-shadow: 0 0 5px 0px rgba(255, 255, 255) inset !important;
 }
 
 
@@ -479,6 +480,7 @@ a:-webkit-any-link {
 .footer-nav-li:hover{
     color: rgba(255, 255, 255, 0.8);
     padding-left: 0.5vw;
+    cursor: pointer;
 
 }
 
